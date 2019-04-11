@@ -1,0 +1,9 @@
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\bin\Debug\VnptSwitchModuleVer1.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\bin\Debug\VnptSwitchModuleVer1.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\bin\Debug\Equipment.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\bin\Debug\Equipment.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\obj\Debug\VnptSwitchModuleVer1.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\obj\Debug\VnptSwitchModuleVer1.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\obj\Debug\VnptSwitchModuleVer1.csproj.CopyComplete
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\obj\Debug\VnptSwitchModuleVer1.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\VnptSwitchModuleVer1\obj\Debug\VnptSwitchModuleVer1.pdb

@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.Instruments.Debug.SwitchCard.Relay.ucRelay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls.Instruments.Debug.SwitchCard.Relay"
+             mc:Ignorable="d" 
+             d:DesignHeight="52" d:DesignWidth="34" MouseDown="FrameWorkElement_MouseDown">
+
+   
+    <UserControl.Resources>
+
+        <Style TargetType="Ellipse">
+            <Setter Property="Width" Value="5"/>
+            <Setter Property="Height" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Fill" Value="Black"/>
+            
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=State}" Value="open">
+                    <Setter Property="Fill" Value="#b24250"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=State}" Value="close">
+                    <Setter Property="Fill" Value="Lime"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Polyline">
+            <Setter Property="StrokeThickness" Value="2"/>
+            <Setter Property="Stroke" Value="Black"/>
+            <Setter Property="Points" Value="11,21 24,12"/>
+
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=State}" Value="open">
+                    <Setter Property="Stroke" Value="#b24250"/>
+                    <Setter Property="Points" Value="11,21 24,12"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=State}" Value="close">
+                    <Setter Property="Stroke" Value="Lime"/>
+                    <Setter Property="Points" Value="11,21 27,21"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        
+    </UserControl.Resources>
+    
+    <Grid Width="34" Height="52">
+        <Border Margin="4,0,0,0" Width="30" Height="40" BorderBrush="Black" BorderThickness="1" CornerRadius="3">
+            <Border.Style>
+                <Style TargetType="Border">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=State}" Value="open">
+                            <Setter Property="Background" Value="White"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=State}" Value="close">
+                            <Setter Property="Background" Value="#0572ad"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+        </Border>
+
+        <Ellipse Margin="9,-10,0,0" HorizontalAlignment="Left"/>
+        <Ellipse Margin="0,-10,5,0" HorizontalAlignment="Right"/>
+        <Polyline/>
+
+        <TextBlock FontWeight="Bold" Margin="12,27,0,0" Text="{Binding Path=Channel, UpdateSourceTrigger=PropertyChanged}">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=State}" Value="open">
+                            <Setter Property="Foreground" Value="Black"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=State}" Value="close">
+                            <Setter Property="Foreground" Value="White"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+
+    </Grid>
+</UserControl>

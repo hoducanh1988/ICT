@@ -1,0 +1,16 @@
+﻿<Window x:Class="ICT_VNPT.UI.Windows.PowerSupplyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ICT_VNPT.UI.Windows"
+        mc:Ignorable="d"
+        Title="Debug - Power Supply Window" Height="550" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+
+    <Grid  x:Name="power_supply_container">
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" Foreground="Red" FontWeight="Bold" Content="Error: Unknow device"/>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="0,130,0,0" Content="Please check setting dll file switch card again." FontWeight="SemiBold" Foreground="Red"/>
+    </Grid>
+
+</Window>

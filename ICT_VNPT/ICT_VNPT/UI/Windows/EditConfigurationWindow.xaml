@@ -1,0 +1,379 @@
+﻿<Window x:Class="ICT_VNPT.UI.Windows.EditConfigurationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ICT_VNPT.UI.Windows"
+        mc:Ignorable="d"
+        Title="Edit Configurations" Height="550" Width="750" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#ECECEC">
+
+    <Window.Resources>
+
+        <Style TargetType="Label">
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Margin" Value="0,-2,0,0"/>
+            <Setter Property="BorderThickness" Value="0,0,0.7,0.7"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="IsEditable" Value="True"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5,0,0,0"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5,0,0,0"/>
+        </Style>
+
+    </Window.Resources>
+    
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Margin="5,5,5,0" Grid.Row="0">
+            <StackPanel Margin="0,0,0,70" Orientation="Vertical">
+
+                <!--Test case options-->
+                <Label Margin="0,0,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Test Case Options"/>
+                <Grid Height="100" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Xử lý case khi test item lỗi"/>
+                        <Label Grid.Row="1" Content="Sử dụng Power Supply"/>
+                        <Label Grid.Row="2" Content="OFF nguồn khi kết thúc test case"/>
+                        <Label Grid.Row="3" Content="Reset switch card khi kết thúc test case"/>
+
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=ItemError, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbErrorOption" Grid.Row="0"/>
+                        <ComboBox Text="{Binding Path=EnablePower, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbEnablePower" Grid.Row="1"/>
+                        <ComboBox Text="{Binding Path=OFFPower, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbOFFPower" Grid.Row="2">
+                            <ComboBox.Style>
+                                <Style TargetType="ComboBox">
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="IsEditable" Value="True"/>
+                                    <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="5,0,0,0"/>
+                                    
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=EnablePower}" Value="Yes">
+                                            <Setter Property="IsEnabled" Value="True"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding Path=EnablePower}" Value="No">
+                                            <Setter Property="IsEnabled" Value="False"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ComboBox.Style>
+                        </ComboBox>
+                        <ComboBox Text="{Binding Path=ResetSwitch, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbResetSwCard" Grid.Row="3"/>
+                    </Grid>
+
+                </Grid>
+
+                <!--Test tree options-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Test Tree Options"/>
+                <Grid Height="100" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Tự động load recent script test khi mở app"/>
+                        <Label Grid.Row="1" Content="Hiển thị số lượng test items"/>
+                        <Label Grid.Row="2" Content="Hiển thị item test mode"/>
+                        <Label Grid.Row="3" Content="Đường dẫn mở/lưu test case"/>
+
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=LoadRecent, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbAutoLoadRecentTestCase" Grid.Row="0"/>
+                        <ComboBox IsEnabled="False" Text="{Binding Path=ShowTestItem, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbShowItemCount" Grid.Row="1"/>
+                        <ComboBox IsEnabled="False" Text="{Binding Path=ShowTestUnit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbShowItemUnit" Grid.Row="2"/>
+                        <Grid Grid.Row="3">
+                            <TextBox Text="{Binding Path=CasePath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            <Button Click="Button_Click" Tag="TestTree" Height="20" HorizontalAlignment="Right" Content="..." Width="17" Background="White" BorderThickness="0.8"/>
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+
+                <!--Go/NoGo options-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Go/NoGo Options"/>
+                <Grid Height="25" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Nhập số serial sản phẩm khi start test"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=InputSerial, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbInputSN" Grid.Row="0"/>
+                    </Grid>
+
+                </Grid>
+
+
+                <!--Test result options-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Test Result Options"/>
+                <Grid Height="125" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Tự động lưu log test result"/>
+                        <Label Grid.Row="1" Content="Định dạng lưu log file"/>
+                        <Label Grid.Row="2" Content="Đường dẫn lưu log file"/>
+                        <Label Grid.Row="3" Content="Tự tạo log folder ngày tháng (ddMMyyyy)"/>
+                        <Label Grid.Row="4" Content="Tự động scroll log view"/>
+                        
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=ResultSaveLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbAutoSaveLogTestResult" Grid.Row="0"/>
+                        <ComboBox Text="{Binding Path=ResultFileFormat, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbFormatLogResult" Grid.Row="1"/>
+                        <Grid Grid.Row="2">
+                            <TextBox Text="{Binding Path=ResultPath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            <Button Click="Button_Click" Tag="TestResult" Height="20" HorizontalAlignment="Right" Content="..." Width="17" Background="White" BorderThickness="0.8"/>
+                        </Grid>
+                        <ComboBox Text="{Binding Path=ResultCreateSub, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbLogResultGenSubFolder" Grid.Row="3"/>
+                        <ComboBox Text="{Binding Path=ResultScroll, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbLogResultAutoScroll" Grid.Row="4"/>
+                    </Grid>
+
+                </Grid>
+                
+                <!--Debug Log Options-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Debug Log Options"/>
+                <Grid Height="125" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Hiển thị tab log"/>
+                        <Label Grid.Row="1" Content="Giới hạn kí tự log (kí tự)"/>
+                        <Label Grid.Row="2" Content="Đường dẫn lưu log file"/>
+                        <Label Grid.Row="3" Content="Tự tạo log folder ngày tháng (ddMMyyyy)"/>
+                        <Label Grid.Row="4" Content="Tự động scroll log view"/>
+
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="0,0,0,0.5">
+                            <WrapPanel Grid.Row="0" VerticalAlignment="Center">
+                                <CheckBox IsChecked="{Binding Path=ShowTablogMeter, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" Margin="5,0,0,0" Content="Multimeter"/>
+                                <CheckBox IsChecked="{Binding Path=ShowTablogSwitch, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" Margin="20,0,0,0" Content="Switch Card"/>
+                                <CheckBox IsChecked="{Binding Path=ShowTablogPower, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" Margin="20,0,0,0" Content="Power Supply"/>
+                            </WrapPanel>
+                        </Border>
+                        <TextBox Text="{Binding Path=DebugTextLimit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.Row="1" />
+                        <Grid Grid.Row="2">
+                            <TextBox Text="{Binding Path=DebugPath, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            <Button Click="Button_Click" Tag="DebugLog" Height="20" HorizontalAlignment="Right" Content="..." Width="17" Background="White" BorderThickness="0.8"/>
+                        </Grid>
+                        <ComboBox IsEnabled="False" Text="{Binding Path=DebugCreateSub, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbDebugLogGenSubFolder" Grid.Row="3"/>
+                        <ComboBox IsEnabled="False" Text="{Binding Path=DebugScroll, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbDebugLogAutoScroll" Grid.Row="4"/>
+                    </Grid>
+                </Grid>
+
+                <!--Label Printer-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Label Printer Optional"/>
+                <Grid Height="50" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="In thông tin lỗi của sản phẩm"/>
+                        <Label Grid.Row="1" Content="Tên máy in nhãn"/>
+
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=PrintLabel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbPrintOption" Grid.Row="0"/>
+                        <Grid Grid.Row="1">
+                            <TextBox Text="{Binding Path=PrinterName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            <Button Click="Button_Click" Tag="SelectPrinter" Height="20" HorizontalAlignment="Right" Content="..." Width="17" Background="White" BorderThickness="0.8"/>
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+                
+                
+                <!--Permission Optional-->
+                <Label Margin="0,5,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Permission Optional"/>
+                <Grid Height="25" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Permission access"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Border IsEnabled="False" Grid.Row="0" BorderBrush="Gray" BorderThickness="0,0,0,0.5">
+                            <WrapPanel Grid.Row="0" VerticalAlignment="Center">
+                                <RadioButton FontWeight="Bold" Margin="5,0,0,0" Content="Operator">
+                                    <RadioButton.Style>
+                                        <Style TargetType="RadioButton">
+                                            <Setter Property="IsChecked" Value="False"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=PermissionAccess}" Value="0">
+                                                    <Setter Property="IsChecked" Value="True"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </RadioButton.Style>
+                                </RadioButton>
+                                <RadioButton FontWeight="Bold" Margin="20,0,0,0" Content="Manager">
+                                    <RadioButton.Style>
+                                        <Style TargetType="RadioButton">
+                                            <Setter Property="IsChecked" Value="False"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=PermissionAccess}" Value="1">
+                                                    <Setter Property="IsChecked" Value="True"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </RadioButton.Style>
+                                </RadioButton>
+                                <RadioButton FontWeight="Bold" Margin="20,0,0,0" Content="Administrator">
+                                    <RadioButton.Style>
+                                        <Style TargetType="RadioButton">
+                                            <Setter Property="IsChecked" Value="False"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=PermissionAccess}" Value="2">
+                                                    <Setter Property="IsChecked" Value="True"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </RadioButton.Style>
+                                </RadioButton>
+                            </WrapPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+                 
+                
+            </StackPanel>
+        </ScrollViewer>
+
+        <Grid Grid.Row="1" Margin="0,5,0,0">
+            <WrapPanel HorizontalAlignment="Right">
+                <Button Click="Button_Click" Tag="Save" Margin="0,0,20,0" Content="Save" Width="70" Height="25" FontWeight="Bold"/>
+            </WrapPanel>
+        </Grid>
+        
+    </Grid>
+</Window>

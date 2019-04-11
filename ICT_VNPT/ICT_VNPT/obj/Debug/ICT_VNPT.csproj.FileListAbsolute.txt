@@ -1,0 +1,319 @@
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe.config
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.pdb
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\App.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.cache
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.lref
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.g.resources
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.Properties.Resources.resources
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.GenerateResource.cache
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.exe
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.pdb
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.baml
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.g.cs
+C:\Users\ANHHO\source\repos\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe.config
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.pdb
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.cache
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.lref
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.g.resources
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.Properties.Resources.resources
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.GenerateResource.cache
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.exe
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.pdb
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Button.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.baml
+\\10.2.5.117\ICT_Software\ICT_VNPT.exe.config
+\\10.2.5.117\ICT_Software\ICT_VNPT.exe
+\\10.2.5.117\ICT_Software\ICT_VNPT.pdb
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Icon.baml
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe.config
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.pdb
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.cache
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.lref
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Button.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Icon.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.baml
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.g.resources
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.Properties.Resources.resources
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.GenerateResource.cache
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019\repos\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe.config
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\App.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.lref
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\App.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Button.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Icon.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.g.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.Properties.Resources.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.GenerateResource.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\AboutWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HelpWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HistoryWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\AboutWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HelpWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\99. Investigation\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HistoryWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe.config
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\ICT_VNPT.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\AboutWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HelpWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HistoryWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT_MarkupCompile.lref
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\App.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Button.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\Asset\Resource\Icon.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\MainWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\DebugLog.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\InstrumentManager.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\Instruments\ucInstrumentContent.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\Go\TestGo.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Notes.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Properties.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TestSetting\Registry.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestSetting.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestItems\TreeTest\TreeTestView.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\UserControls\TestResult.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\AboutWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\EditConfigurationWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HelpWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\HistoryWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\InputSerialWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\MultimeterWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewRangeItemWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\NewScriptWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\PowerSupplyWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\UI\Windows\SwitchCardWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.g.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.Properties.Resources.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.GenerateResource.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\obj\Debug\ICT_VNPT.pdb

@@ -1,0 +1,24 @@
+﻿<Window x:Class="ICT_VNPT.UI.Windows.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ICT_VNPT.UI.Windows"
+        mc:Ignorable="d"
+        Title="About Software" Height="330" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#FFFFFF">
+
+    <StackPanel Margin="35,5,0,0">
+        <Image Margin="0,0,0,15" Source="/Asset/Image/logovnpt.png" Height="100" HorizontalAlignment="Left"/>
+        <Label FontSize="15" FontWeight="SemiBold" Content="Automatic ICT Check For VNPT Products - 2019" BorderBrush="#777777" BorderThickness="0,0,0,1"/>
+
+        <StackPanel>
+            <Label Content="Software version: 1.0.0.0"/>
+            <Label Content="Build date: 2019/04/05 16:56"/>
+            <Label Content="Copyright: VNPT Technology 2019"/>
+            <Label Content="Developed by: TTCN - HTSX"/>
+        </StackPanel>
+
+        <Button Click="Button_Click" Margin="0,5,5,0" Height="25" Width="80" Content="OK" HorizontalAlignment="Right"/>
+
+    </StackPanel>
+</Window>

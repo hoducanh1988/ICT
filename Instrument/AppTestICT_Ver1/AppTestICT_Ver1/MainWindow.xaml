@@ -1,0 +1,282 @@
+﻿<Window x:Class="AppTestICT_Ver1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppTestICT_Ver1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="780" Width="800" Style="{StaticResource customWindow}" WindowStartupLocation="Manual">
+
+    <Window.Resources>
+
+        <Style TargetType="{x:Type TabItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TabItem}">
+                        <Grid>
+                            <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="1,1,1,1" CornerRadius="3,15,0,0" >
+                                <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Panel.ZIndex" Value="100"/>
+                                <Setter TargetName="Border" Property="Background" Value="#43d854" />
+                                <Setter TargetName="Border" Property="BorderThickness" Value="1,1,1,0" />
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="False">
+                                <Setter TargetName="Border" Property="Background" Value="#FFEEEEEE" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="Orange" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style x:Key="headerStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Background" Value="#FF444444"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Foreground" Value="#FFEAEAEA"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="0.2,0.2,0.2,0.2"/>
+            <Setter Property="Padding" Value="3,0,0,0"/>
+        </Style>
+
+        <Style TargetType="DataGridRow">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=result}" Value="PASS">
+                    <Setter Property="Background" Value="#afefac"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=result}" Value="FAIL">
+                    <Setter Property="Background" Value="#e5a68b"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=result}" Value="Waiting...">
+                    <Setter Property="Background" Value="#f8fcb3"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+
+    </Window.Resources>
+
+    <Border Background="#eae7dc" CornerRadius="5" MouseDown="Border_MouseDown" BorderBrush="{StaticResource colorBorder}" BorderThickness="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <!--Software infomation-->
+            <Grid Grid.Row="0" Margin="0,0,0,0" x:Name="gridAppInfo" Background="#79797a">
+                <WrapPanel HorizontalAlignment="Left">
+
+                    <Label VerticalAlignment="Center" Foreground="White" Content="{Binding Path=appver, UpdateSourceTrigger=PropertyChanged}"></Label>
+                    <Label VerticalAlignment="Center" Foreground="White" Content="{Binding Path=builddate, UpdateSourceTrigger=PropertyChanged}"></Label>
+                    <Label VerticalAlignment="Center" Foreground="White" Content="{Binding Path=copyright, UpdateSourceTrigger=PropertyChanged}"></Label>
+                </WrapPanel>
+                <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right" >
+                    <Label MouseDown="lblMin_MouseDown" Margin="10,0,0,0" Width="30" HorizontalContentAlignment="Center" Foreground="Black" FontSize="20" FontWeight="Bold" ToolTipService.ToolTip="Minimize" Padding="0,-5,0,0">
+                        <Border MouseDown="lblMin_MouseDown" Margin="0,13,0,0" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="White" BorderThickness="2" Width="10"/>
+                    </Label>
+                    <Label MouseDown="Label_MouseDown" FontSize="20" Width="30" FontWeight="Bold" Margin="0,-5,5,0"  Foreground="White" ToolTipService.ToolTip="Close" Content="X"></Label>
+                </WrapPanel>
+
+            </Grid>
+
+            <!--menu item-->
+            <Grid Margin="0,25,0,0" Grid.RowSpan="2" Background="#79797a">
+                <Menu Width="Auto" VerticalAlignment="Center" HorizontalAlignment="Left" Background="#79797a" Foreground="White">
+                    <MenuItem  Header="File" FontWeight="Bold" Click="MenuItem_Click">
+                        <MenuItem Header="Open log folder" Click="MenuItem_Click"/>
+                        <Separator/>
+                        <MenuItem Header="Exit" Click="MenuItem_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="Setting" FontWeight="Bold" Click="MenuItem_Click"/>
+                    <MenuItem Header="Help" FontWeight="Bold"/>
+                    <MenuItem Header="About" FontWeight="Bold"/>
+
+                </Menu>
+            </Grid>
+
+            <!--title-->
+            <Border Background="#79797a" Grid.Row="2" Margin="0,0,0,0" CornerRadius="0" BorderBrush="#79797a" BorderThickness="0,0,0,0">
+                <Grid x:Name="gridAppTitle">
+                    <Label Foreground="White" VerticalAlignment="Center" Content="{Binding Path=apptitle, UpdateSourceTrigger=PropertyChanged}" FontWeight="Bold" FontSize="26"/>
+                </Grid>
+            </Border>
+
+
+            <!--Judged-->
+            <Border Grid.Row="3" Margin="5,0,5,0" CornerRadius="5" BorderBrush="Gray" BorderThickness="0,0,0,0.5">
+                <Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Show progress status test-->
+                        <Border Grid.Column="0" CornerRadius="0" BorderBrush="Gray" BorderThickness="0,0,0,0">
+                            <StackPanel HorizontalAlignment="Left">
+                                <Label x:Name="lbltest" Foreground="{StaticResource colorTextWait}" FontWeight="Bold" Margin="0,0,0,10" FontSize="25" Content="Đo thông dẫn connector J3"/>
+                                <Label Foreground="Green" FontSize="15" Content="Tiêu chuẩn: 0 ~ 3"/>
+                                <Label Foreground="Black" FontSize="15" Content="Thực tế: đang kiểm tra..."/>
+                                <Label Foreground="Black" FontSize="15" Content="Số lần retry: 0/3"/>
+                                <Label Foreground="Black" FontSize="15" Content="Mã lỗi: "/>
+                            </StackPanel>
+                        </Border>
+
+
+                        <!--Show total result test-->
+                        <Border Grid.Column="1">
+                            <Grid >
+                                <Label FontSize="20" FontWeight="SemiBold" Content="Kết quả kiểm tra:"/>
+
+                                <Label Margin="0,-20,0,0" x:Name="lbltotalresult" FontSize="100" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Content="wait...">
+                                    <Label.Style>
+                                        <Style TargetType="Label">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding ElementName=lbltotalresult, Path=Content}" Value="PASS">
+                                                    <Setter Property="Foreground" Value="Lime"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding ElementName=lbltotalresult, Path=Content}" Value="FAIL">
+                                                    <Setter Property="Foreground" Value="Red"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding ElementName=lbltotalresult, Path=Content}" Value="wait...">
+                                                    <Setter Property="Foreground" Value="{StaticResource colorTextWait}"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding ElementName=lbltotalresult, Path=Content}" Value="--">
+                                                    <Setter Property="Foreground" Value="Black"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Label.Style>
+                                </Label>
+
+                                <WrapPanel VerticalAlignment="Bottom" Margin="0,0,0,25">
+                                    <Label FontSize="15" FontWeight="SemiBold" Content="Đã hoàn thành bài test : 4 / 7"/>
+                                </WrapPanel>
+
+                                <WrapPanel VerticalAlignment="Bottom">
+                                    <Label FontSize="15" FontWeight="SemiBold" Content="Thời gian 00:00:30"/>
+                                </WrapPanel>
+
+                            </Grid>
+                        </Border>
+
+
+                    </Grid>
+
+                </Grid>
+            </Border>
+
+
+
+            <!--Error Information-->
+            <Grid Grid.Row="4" Background="#f4eeb7" Margin="5,0,5,0">
+                <Label VerticalContentAlignment="Center" FontWeight="Bold" FontSize="30" Content="Đang setup máy keithley 2110 đo thông dẫn ..."/>
+            </Grid>
+
+            <!--Progress content-->
+            <Border Grid.Row="5" Margin="5,5,5,0" BorderBrush="Gray" BorderThickness="0.5" CornerRadius="5">
+                <TabControl TabStripPlacement="Bottom">
+                    <TabControl.Resources>
+                        <Style TargetType="TabPanel">
+                            <Setter Property="HorizontalAlignment" Value="Center"/>
+                        </Style>
+                    </TabControl.Resources>
+
+                    <TabItem>
+                        <TabItem.Header>
+                            <Grid Height="30" Width="150">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Text="Danh sách bài test" FontWeight="SemiBold"/>
+                            </Grid>
+                        </TabItem.Header>
+
+                        <DataGrid x:Name="mainGrid" ItemsSource="{Binding}" Background="Transparent" Margin="5"
+                                  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                                  CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" CanUserReorderColumns="False" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                                  GridLinesVisibility="Horizontal"
+                                  HeadersVisibility="Column"
+                                  HorizontalContentAlignment="Center"
+                                  VerticalContentAlignment="Bottom"
+                                  FontSize="16"
+                                  SelectionUnit="FullRow" SelectionMode="Single"
+                                  LostFocus="MainGrid_LostFocus" 
+                                  MouseLeave="MainGrid_MouseLeave">
+
+
+
+                            <!--<DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="FontSize" Value="13"/>
+                                    <Setter Property="Background" Value="#eae7dc"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                    <Setter Property="Height" Value="50"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                </Style>
+                            </DataGrid.ColumnHeaderStyle>-->
+
+
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding testitem, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="TEST ITEM" Width="3*" FontWeight="Bold"/>
+                                <DataGridTextColumn Binding="{Binding bank1, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="BANK1" Width="0.8*"/>
+                                <DataGridTextColumn Binding="{Binding bank2, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="BANK2" Width="0.8*"/>
+                                <DataGridTextColumn Binding="{Binding unit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="UNIT" Width="0.7*"/>
+                                <DataGridTextColumn Binding="{Binding standard, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="STANDARD" Width="1.2*"/>
+                                <DataGridTextColumn Binding="{Binding actual, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="ACTUAL" Width="0.8*"/>
+                                <DataGridTextColumn Binding="{Binding result, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="RESULT" Width="1.2*"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </TabItem>
+
+                    <TabItem>
+                        <TabItem.Header>
+                            <Grid Height="30" Width="150">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15" Text="Dữ liệu log" FontWeight="SemiBold"/>
+                            </Grid>
+                        </TabItem.Header>
+
+                        <Grid>
+                            <ScrollViewer Margin="0,0,0,0" x:Name="_scrollViewer1">
+                                <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="5,5,5,5">
+                                    <FlowDocument PageHeight="180">
+                                        <Paragraph>
+                                            <Run Foreground="#050928" FontWeight="Normal" Text="{Binding SYSTEMLOG, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                        </Paragraph>
+                                    </FlowDocument>
+                                </RichTextBox>
+                            </ScrollViewer>
+                        </Grid>
+
+                    </TabItem>
+
+                </TabControl>
+
+            </Border>
+
+            <!--status bar-->
+            <Grid Grid.Row="6" Margin="5,2,5,2" >
+                <Button Height="46" Content="START" Background="{StaticResource colorBorder}" Foreground="White" FontSize="27" FontWeight="Bold"
+                        Click="Button_Click"/>
+            </Grid>
+        </Grid>
+    </Border>
+
+
+</Window>

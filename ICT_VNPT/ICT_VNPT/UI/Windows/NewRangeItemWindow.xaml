@@ -1,0 +1,21 @@
+﻿<Window x:Class="ICT_VNPT.UI.Windows.NewRangeItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ICT_VNPT.UI.Windows"
+        mc:Ignorable="d"
+        Title="Range Items" Height="170" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <StackPanel Margin="5,10,5,5">
+        <TextBlock TextWrapping="Wrap" Text="Vui lòng nhập số lượng item test muốn thêm vào test case ở box nhập bên dưới đây."/>
+        <Label Content="Quantity of items:" FontWeight="Bold"/>
+        <TextBox x:Name="txtSQty" KeyDown="TxtSQty_KeyDown" Background="Yellow" FontWeight="Bold" Height="25" VerticalContentAlignment="Center" Margin="5,5,0,0" BorderThickness="0,0,0,1" />
+
+        <WrapPanel Margin="0,5,0,0" HorizontalAlignment="Right">
+            <Button Click="Button_Click" Height="22" Width="50" Content="OK"/>
+        </WrapPanel>
+
+    </StackPanel>
+
+</Window>

@@ -1,0 +1,121 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.TestResult"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#F0F0F0">
+
+    <UserControl.Resources>
+
+        <!--<Style TargetType="DataGridRow">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ItemResult}" Value="passed">
+                    <Setter Property="Background" Value="#d7eddc"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=ItemResult}" Value="failed">
+                    <Setter Property="Background" Value="#e5a68b"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=ItemResult}" Value="Wait...">
+                    <Setter Property="Background" Value="#f8fcb3"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>-->
+
+    </UserControl.Resources>
+
+    <TabControl>
+        <TabItem>
+            <TabItem.Header>
+                <TextBlock Text="ICT Test Results" Width="90"/>
+            </TabItem.Header>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <Label Content="Export to -------"/>
+                    <Button Visibility="Collapsed" Height="25" Content="Excel" Margin="5,5,5,0"/>
+                    <Button Click="Button_Click" Height="25" Content="CSV" Margin="5,5,5,0"/>
+                    <Button Click="Button_Click" Height="25" Content="XML" Margin="5,5,5,0"/>
+                    <Button Click="Button_Click" Height="25" Content="Clear Grid" Margin="5,5,5,0"/>
+                </StackPanel>
+
+                <DataGrid Grid.Column="1" x:Name="gridResult" ItemsSource="{Binding}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                          CanUserResizeColumns="True" CanUserResizeRows="False" CanUserSortColumns="False" CanUserReorderColumns="False" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                          GridLinesVisibility="All"
+                          HorizontalGridLinesBrush="#e9efe6"
+                          VerticalGridLinesBrush="#e9efe6"
+                          HeadersVisibility="Column"
+                          HorizontalContentAlignment="Center"
+                          VerticalContentAlignment="Center"
+                          SelectionUnit="FullRow" SelectionMode="Single"
+                          Margin="5"
+                          LostFocus="GridResult_LostFocus"
+                          >
+
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Refresh" Click="MenuItem_Click"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding SerialNumber, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="SN" Width="1*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding ItemName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="ItemName" Width="1*" FontWeight="SemiBold"/>
+                        
+                        <DataGridTextColumn Binding="{Binding ItemUnit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Unit" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding RetryTime, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Retry" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding LowerLimit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="LL" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding NumValue, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Actual" Width="0.7*">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Style.Triggers>
+                                        <Trigger Property="Text" Value="">
+                                            <Setter Property="Background" Value="#e5a68b"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                        
+                        <DataGridTextColumn Binding="{Binding UpperLimit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="UL" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding UOM, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="UOM" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding ItemResult, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Result" Width="0.5*">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Style.Triggers>
+                                        <Trigger Property="Text" Value="failed">
+                                            <Setter Property="Background" Value="#e5a68b"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Binding="{Binding TestTime, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Time" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding ErrorCode, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Code" Width="0.5*"/>
+                        
+                        <DataGridTextColumn Binding="{Binding ItemMessage, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Header="Message" Width="1.5*"/>
+                    </DataGrid.Columns>
+                    
+                </DataGrid>
+                
+            </Grid>
+            
+        </TabItem>
+        
+    </TabControl>
+    
+</UserControl>

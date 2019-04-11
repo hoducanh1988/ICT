@@ -1,0 +1,131 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.Instruments.Debug.SwitchCard.ucPickering50635005"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls.Instruments.Debug.SwitchCard"
+             xmlns:relay="clr-namespace:ICT_VNPT.UI.UserControls.Instruments.Debug.SwitchCard.Relay"
+             mc:Ignorable="d" 
+             d:DesignHeight="510" d:DesignWidth="800" Background="White" >
+
+
+    <UserControl.Resources>
+        
+        <Style x:Key="textblock_button" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                                <GradientStop Offset="0.0" Color="#efedc9"/>
+                                <GradientStop Offset="1.0" Color="#c4bf5a"/>
+                            </RadialGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="False">
+                    <Setter Property="Background" Value="#F2F2F2" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="textblock_link" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="TextDecorations" Value="Underline"/>
+            
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="Red"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="False">
+                    <Setter Property="Foreground" Value="Black" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="55"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="grid_main" Grid.Row="0" Background="White">
+            
+            <Polyline Stroke="Black" StrokeThickness="2" 
+                      Points="20,20 100,20 100,430"/>
+            <Polygon Stroke="Black" StrokeThickness="2" Fill="#999999"
+                     Points="100,100 750,100 750,380 100,380"/>
+
+            <Polygon Stroke="Black" StrokeThickness="1" Fill="#F2F2F2"
+                     Points="200,380 250,380 250,430 200,430"/>
+            <Polygon Stroke="Black" StrokeThickness="1" Fill="#F2F2F2"
+                     Points="270,380 500,380 500,430 270,430"/>
+            <Polygon Stroke="Black" StrokeThickness="1" Fill="#F2F2F2"
+                     Points="520,380 570,380 570,430 520,430"/>
+
+
+            <!--Title-->
+            <StackPanel Margin="100,20,50,0" Height="80" VerticalAlignment="Top">
+                <Label VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"
+                       Content="Switch Card - PCI - Pickering 50-635-005"/>
+                <WrapPanel Margin="35,0,0,0">
+                    <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_link}" Margin="0,0,0,0"
+                               Text="View Card"/>
+                    <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_link}" Margin="40,0,0,0"
+                               Text="View Specification" />
+                    <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_link}" Margin="40,0,0,0"
+                               Text="View Pin Layout"/>
+                    <TextBlock x:Name="tbStatus" FontWeight="Bold" FontSize="15" Text="Disconnected" Margin="80,0,0,0"/>
+                </WrapPanel>
+            </StackPanel>
+            
+            <!--Content-->
+            <Grid Margin="100,100,50,0" Height="280" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <!--Bank1-->
+                <Grid Grid.Row="0">
+                    <Border Width="550" Height="105" Margin="70,25,0,10" BorderBrush="Black" BorderThickness="0.7" Background="WhiteSmoke">
+                        <WrapPanel x:Name="bank1"/>
+                    </Border>
+                    <Label VerticalAlignment="Center" FontSize="22" Content="Bank1" Foreground="Blue" FontWeight="SemiBold" HorizontalAlignment="Left"/>
+                </Grid>
+                
+                <!--Bank2-->
+                <Grid Grid.Row="1">
+                    <Border Width="550" Height="105" Margin="70,10,0,25" BorderBrush="Black" BorderThickness="0.7" Background="WhiteSmoke">
+                        <WrapPanel x:Name="bank2"/>
+                    </Border>
+                    <Label VerticalAlignment="Center" FontSize="22" Content="Bank2" Foreground="Blue" FontWeight="SemiBold" HorizontalAlignment="Left"/>
+                </Grid>
+            </Grid>
+
+            <!--button-->
+            <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_button}" 
+                       Margin="201,354,0,0" Padding="8,8,0,0" Width="48" Height="48" 
+                       Text="Reset Bank1"/>
+            <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_button}" 
+                       Margin="271,354,0,0" Padding="80,15,0,0" Width="228" Height="48" 
+                       Text="Reset Card"/>
+            <TextBlock MouseDown="TextBlock_MouseDown" Style="{StaticResource textblock_button}" 
+                       Margin="521,354,0,0" Padding="8,8,0,0" Width="48" Height="48" 
+                       Text="Reset Bank2"/>
+
+        </Grid>
+
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0,0.7,0,0">
+            <Grid Margin="0,10,5,0">
+                <Button Click="Button_Click" FontWeight="SemiBold" VerticalAlignment="Top" HorizontalAlignment="Right" Content="Connect" Height="35" Width="80"/>
+            </Grid>
+        </Border> 
+    </Grid>
+</UserControl>

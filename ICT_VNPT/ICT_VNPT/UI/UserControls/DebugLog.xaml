@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.DebugLog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls"
+             xmlns:ulti ="clr-namespace:ICT_VNPT.Func.Ulti"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#F0F0F0">
+
+    <UserControl.Resources>
+        <ulti:TrueFalseToVisibilityConverter x:Key="TrueFalseToVisibilityConverter"/>
+    </UserControl.Resources>
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ToolBar Grid.Row="0">
+            
+        </ToolBar>
+        
+        <TabControl Grid.Row="1" TabStripPlacement="Bottom">
+
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="System log"/>
+                </TabItem.Header>
+
+                <ScrollViewer x:Name="_scrollViewerSystem">
+                    <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="0,5,0,0">
+                        <FlowDocument PageHeight="180">
+                            <Paragraph>
+                                <Run Foreground="#050928" FontWeight="Normal" Text="{Binding Path=SystemLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </ScrollViewer>
+
+            </TabItem>
+
+            <TabItem Visibility="{Binding Path=ShowMeter, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource TrueFalseToVisibilityConverter}}">
+                <TabItem.Header>
+                    <TextBlock Text="Multimeter log"/>
+                </TabItem.Header>
+
+                <ScrollViewer x:Name="_scrollViewerMeter">
+                    <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="0,5,0,0">
+                        <FlowDocument PageHeight="180">
+                            <Paragraph>
+                                <Run Foreground="#050928" FontWeight="Normal" Text="{Binding Path=MeterLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </ScrollViewer>
+                
+            </TabItem>
+
+            <TabItem Visibility="{Binding Path=ShowSW, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource TrueFalseToVisibilityConverter}}">
+                <TabItem.Header>
+                    <TextBlock Text="Switch card log"/>
+                </TabItem.Header>
+
+                <ScrollViewer x:Name="_scrollViewerSwitch">
+                    <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="0,5,0,0">
+                        <FlowDocument PageHeight="180">
+                            <Paragraph>
+                                <Run Foreground="#050928" FontWeight="Normal" Text="{Binding Path=SwitchLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </ScrollViewer>
+                
+            </TabItem>
+
+            <TabItem Visibility="{Binding Path=ShowPW, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource TrueFalseToVisibilityConverter}}">
+                <TabItem.Header>
+                    <TextBlock Text="Power supply log"/>
+                </TabItem.Header>
+
+                <ScrollViewer x:Name="_scrollViewerPower">
+                    <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="0,5,0,0">
+                        <FlowDocument PageHeight="180">
+                            <Paragraph>
+                                <Run Foreground="#050928" FontWeight="Normal" Text="{Binding Path=PowerLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <TextBlock Text="Error Message"/>
+                </TabItem.Header>
+
+                <ScrollViewer x:Name="_scrollViewerError">
+                    <RichTextBox  Background="Transparent" BorderThickness="0" IsReadOnly="True" Block.LineHeight="1" Padding="0,5,0,0">
+                        <FlowDocument PageHeight="180">
+                            <Paragraph>
+                                <Run Foreground="#050928" FontWeight="Normal" Text="{Binding Path=ErrorLog, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </ScrollViewer>
+            </TabItem>
+            
+        </TabControl>
+    </Grid>
+    
+    
+</UserControl>

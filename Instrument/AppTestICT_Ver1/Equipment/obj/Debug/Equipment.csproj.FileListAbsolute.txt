@@ -1,0 +1,18 @@
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.pdb
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\bin\Debug\Equipment.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Equipment\obj\Debug\Equipment.pdb

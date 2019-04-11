@@ -1,0 +1,143 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.TestItems.TreeTestView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls.TestItems"
+             xmlns:cus ="clr-namespace:ICT_VNPT.Func.Custom"
+             xmlns:ulti ="clr-namespace:ICT_VNPT.Func.Ulti"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <ulti:TrueFalseToBooleanConverter x:Key="TrueFalseToBooleanConverter"/>
+        <ulti:YesNoToVisibilityConverter x:Key="YesNoToVisibilityConverter"/>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <TreeView x:Name="trvItemTest" ScrollViewer.VerticalScrollBarVisibility="Visible" Padding="10,5,5,5" TreeViewItem.Selected="TrvItemTest_Selected">
+
+            <!--Context menu-->
+            <TreeView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Run Test (F6)" Click="MenuItem_Click">
+                        <!--<MenuItem.Icon>
+                            <Image Source="/Asset/Image/run.png" Width="16" Height="16" Stretch="Fill"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click" Header="Stop Test" IsEnabled="False"/>
+                    <Separator/>
+                    <MenuItem Click="MenuItem_Click" Header="New An Item">
+                        <!--<MenuItem.Icon>
+                            <Image Source="/Asset/Image/plus.png" Width="16" Height="16" Stretch="Fill"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click" Header="New Range Item">
+                        <!--<MenuItem.Icon>
+                            <Image Source="/Asset/Image/plus.png" Width="16" Height="16" Stretch="Fill"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click" Header="Delete Item">
+                        <!--<MenuItem.Icon>
+                            <Image Source="/Asset/Image/delete.png" Width="16" Height="16" Stretch="Fill"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <Separator/>
+                    <MenuItem Click="MenuItem_Click" Header="Refresh">
+                        <!--<MenuItem.Icon>
+                            <Image Source="/Asset/Image/refresh.png" Width="16" Height="16" Stretch="Fill"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                </ContextMenu>
+            </TreeView.ContextMenu>
+            
+            <!--Auto Expander Tree Node-->
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="True"/>
+                </Style>
+            </TreeView.ItemContainerStyle>
+
+            <TreeView.Resources>
+                
+                <!--Test Script-->
+                <HierarchicalDataTemplate DataType="{x:Type cus:DutInfo}" ItemsSource="{Binding Cases}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Asset/Image/home.png" Margin="0,0,5,0" Width="16" Height="16"/>
+                        <TextBlock FontSize="17" FontWeight="SemiBold" Text="{Binding Name}"/>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+
+                <!--Test Case-->
+                <HierarchicalDataTemplate DataType="{x:Type cus:TestCaseInfo}" ItemsSource="{Binding Items}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Asset/Image/folder.png" Margin="0,0,5,0" Width="16" Height="16"/>
+                        <TextBlock FontSize="15" Text="{Binding Name}"/>
+
+                        <TextBlock VerticalAlignment="Top" Text=" [" Foreground="#1820f7" />
+                        <TextBlock FontWeight="Bold" VerticalAlignment="Top" Text="{Binding ItemCount, UpdateSourceTrigger=PropertyChanged}" Foreground="#1820f7" />
+                        <TextBlock VerticalAlignment="Top" Text="]" Foreground="#1820f7" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+
+                <!--Test Item-->
+                <DataTemplate  DataType="{x:Type cus:TestItemInfo}">
+                    <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+
+                        <!--<TextBlock Width="15" VerticalAlignment="Top" Text="{Binding OrderNo}" Foreground="#1820f7" />-->
+
+                        <CheckBox Height="16" IsChecked="{Binding Path=IsCheck, Converter={StaticResource TrueFalseToBooleanConverter}}"/>
+                        <Image Margin="0,0,3,0" Width="16" Height="16">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsPower}" Value="True">
+                                            <Setter Property="Source" Value="/Asset/Image/test1.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsPower}" Value="False">
+                                            <Setter Property="Source" Value="/Asset/Image/test.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ItemResult}" Value="">
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ItemResult}" Value="wait">
+                                            <Setter Property="Source" Value="/Asset/Image/wait2.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ItemResult}" Value="passed">
+                                            <Setter Property="Source" Value="/Asset/Image/pass.png"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding ItemResult}" Value="failed">
+                                            <Setter Property="Source" Value="/Asset/Image/fail.png"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+
+                        <TextBlock VerticalAlignment="Top" Text="(" Foreground="#1820f7" />
+                        <TextBlock Width="15" FontWeight="Bold" VerticalAlignment="Top" Text="{Binding ItemUnit}" Foreground="#1820f7" />
+                        <TextBlock VerticalAlignment="Top" Text=") " Foreground="#1820f7" />
+                        
+                        <TextBlock Width="190" FontSize="14" FontWeight="SemiBold" Text="{Binding ItemName}">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsCheck}" Value="True">
+                                            <Setter Property="Foreground" Value="Black"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsCheck}" Value="False">
+                                            <Setter Property="Foreground" Value="Red"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+
+                    </StackPanel>
+                </DataTemplate>
+                
+            </TreeView.Resources>
+            
+        </TreeView>
+    </Grid>
+</UserControl>

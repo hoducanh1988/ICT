@@ -1,0 +1,23 @@
+﻿<InstrumentInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>VnptSwitchModuleVer1</Name>
+  <DLLFile>VnptSwitchModuleVer1.dll</DLLFile>
+  <CnnType>UART</CnnType>
+  <InstType>S</InstType>
+  <StableTime>100</StableTime>
+  <OutVoltage>12</OutVoltage>
+  <OutCurrent>2</OutCurrent>
+  <OverVoltage>15.5</OverVoltage>
+  <OverCurrent>2.5</OverCurrent>
+  <IsProtectVolt>True</IsProtectVolt>
+  <IsProtectCurrent>True</IsProtectCurrent>
+  <VoltStep>0.0001</VoltStep>
+  <CurrentStep>0.0001</CurrentStep>
+  <TriggerSource>IMM</TriggerSource>
+  <TriggerDelay>0</TriggerDelay>
+  <VisaAddress>PXI4::1::INSTR</VisaAddress>
+  <ComPort>COM6</ComPort>
+  <ComBaudRate>115200</ComBaudRate>
+  <ComDataBit>8</ComDataBit>
+  <ComParity>None</ComParity>
+  <ComStopBit>1</ComStopBit>
+</InstrumentInfo>

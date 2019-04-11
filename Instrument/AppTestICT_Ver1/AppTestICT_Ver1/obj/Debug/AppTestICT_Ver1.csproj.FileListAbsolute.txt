@@ -1,0 +1,110 @@
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Button.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\CheckBox.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Combobox.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\DataGrid.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Listbox.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\RadioButton.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Slider.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\TabControl.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Textbox.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\ToggleButton.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.g.cs
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.g.cs
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.lref
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe.config
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.pdb
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignColors.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\customWindow.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Label.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.baml
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.g.resources
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.Properties.Resources.resources
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.GenerateResource.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CopyComplete
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.exe
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.pdb
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.g.cs
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe.config
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignColors.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Button.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\CheckBox.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Combobox.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\DataGrid.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Listbox.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\RadioButton.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Slider.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\TabControl.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Textbox.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\ToggleButton.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.g.cs
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.lref
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\customWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Label.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.baml
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.g.resources
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.Properties.Resources.resources
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.GenerateResource.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CopyComplete
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.exe
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe.config
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\AppTestICT_Ver1.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignColors.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Button.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\CheckBox.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Combobox.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\DataGrid.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Listbox.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\RadioButton.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Slider.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\TabControl.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Textbox.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\ToggleButton.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1_MarkupCompile.lref
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\App.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\customWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Asset\Resource\Label.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\MainWindow.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\ProductOptional_Window.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.g.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.Properties.Resources.resources
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.GenerateResource.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.csproj.CopyComplete
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.exe
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\AppTestICT_Ver1.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Keithley2110.g.cs
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\obj\Debug\Keithley2110.baml
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\Protocol.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\NationalInstruments.VisaNS.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\AppTestICT_Ver1\bin\Debug\Protocol.pdb

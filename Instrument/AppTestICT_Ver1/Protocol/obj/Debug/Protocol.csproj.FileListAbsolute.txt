@@ -1,0 +1,21 @@
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.pdb
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.dll
+C:\Users\ANHHO\source\repos\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.pdb
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.dll
+C:\Users\ANHHO\source\repos\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\bin\Debug\Protocol.pdb
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.dll
+D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\Instrument\AppTestICT_Ver1\Protocol\obj\Debug\Protocol.pdb

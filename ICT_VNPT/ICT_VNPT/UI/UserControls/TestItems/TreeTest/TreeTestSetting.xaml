@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="ICT_VNPT.UI.UserControls.TestItems.TreeTestSetting"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICT_VNPT.UI.UserControls.TestItems"
+             xmlns:uc="clr-namespace:ICT_VNPT.UI.UserControls.TestItems.TreeTest.TestSetting"
+             xmlns:ulti ="clr-namespace:ICT_VNPT.Func.Ulti"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <ulti:YesNoToVisibilityConverter x:Key="YesNoToVisibilityConverter"/>
+    </UserControl.Resources>
+    
+    <TabControl x:Name="TabSetting">
+
+        <!--Tree Registry-->
+        <!--<TabItem Visibility="{Binding Path=ShowTreeRegistry, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource YesNoToVisibilityConverter}}">
+            <TabItem.Header>
+                <WrapPanel>
+                    <Image Height="15" Margin="2,0,4,0" Source="/Asset/Image/tree.png" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Tree Registry"/>
+                </WrapPanel>
+            </TabItem.Header>
+
+            <uc:Registry/>
+        </TabItem>-->
+
+        <!--Properties-->
+        <TabItem>
+            <TabItem.Header>
+                <WrapPanel>
+                    <Image Height="15" Margin="2,0,4,0" Source="/Asset/Image/properties.png" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Properties"/>
+                </WrapPanel>
+            </TabItem.Header>
+
+            <uc:Properties/>
+        </TabItem>
+
+        <!--Parameters-->
+        <TabItem>
+            <TabItem.Header>
+                <WrapPanel>
+                    <Image Height="15" Margin="2,0,4,0" Source="/Asset/Image/parameters.png" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Parameters"/>
+                </WrapPanel>
+            </TabItem.Header>
+
+            <uc:Parameters/>
+        </TabItem>
+
+        <!--Notes-->
+        <TabItem>
+            <TabItem.Header>
+                <WrapPanel>
+                    <Image Height="15" Margin="2,0,4,0" Source="/Asset/Image/notes.png" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Notes"/>
+                </WrapPanel>
+            </TabItem.Header>
+
+            <uc:Notes/>
+        </TabItem>
+
+    </TabControl>
+
+</UserControl>

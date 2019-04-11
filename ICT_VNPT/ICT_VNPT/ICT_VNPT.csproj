@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{71AD2E3E-46AA-4252-8B28-F2F865F56D59}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ICT_VNPT</RootNamespace>
+    <AssemblyName>ICT_VNPT</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Asset\Icon\ICT_2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="reachframework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Func\Custom\DebugLogInfo.cs" />
+    <Compile Include="Func\Custom\DutInfo.cs" />
+    <Compile Include="Func\Custom\GoTestInfo.cs" />
+    <Compile Include="Func\Custom\InstrumentInfo.cs" />
+    <Compile Include="Func\Custom\MainWindowInfo.cs" />
+    <Compile Include="Func\Custom\PowerInfo.cs" />
+    <Compile Include="Func\Custom\ResultGridItem.cs" />
+    <Compile Include="Func\Custom\SettingInfo.cs" />
+    <Compile Include="Func\Custom\TestCaseInfo.cs" />
+    <Compile Include="Func\Custom\TestItemInfo.cs" />
+    <Compile Include="Func\Excute\AbstractExcute.cs" />
+    <Compile Include="Func\Excute\TestAllItems.cs" />
+    <Compile Include="Func\Excute\TestItem.cs" />
+    <Compile Include="Func\Global\myEnum.cs" />
+    <Compile Include="Func\Global\myGlobal.cs" />
+    <Compile Include="Func\Global\myParameter.cs" />
+    <Compile Include="Func\Instrument\AbstractInstrument.cs" />
+    <Compile Include="Func\Instrument\Multimeter.cs" />
+    <Compile Include="Func\Instrument\PowerSupply.cs" />
+    <Compile Include="Func\Instrument\SwitchCard.cs" />
+    <Compile Include="Func\IO\csvResult.cs" />
+    <Compile Include="Func\IO\csvScriptTest.cs" />
+    <Compile Include="Func\IO\iniRange.cs" />
+    <Compile Include="Func\IO\Logger\AbstractLogger.cs" />
+    <Compile Include="Func\IO\Logger\LogTotal.cs" />
+    <Compile Include="Func\IO\xmlInstrument.cs" />
+    <Compile Include="Func\IO\xmlResult.cs" />
+    <Compile Include="Func\IO\xmlSetting.cs" />
+    <Compile Include="Func\Ulti\Base.cs" />
+    <Compile Include="Func\Ulti\CNotifyPropertyChanged.cs" />
+    <Compile Include="Func\Ulti\TrueFalseToBooleanConverter.cs" />
+    <Compile Include="Func\Ulti\TrueFalseToVisibilityConverter.cs" />
+    <Compile Include="Func\Ulti\ViewHelper.cs" />
+    <Compile Include="Func\Ulti\XmlHelper.cs" />
+    <Compile Include="Func\Ulti\YesNoToVisibilityConverter.cs" />
+    <Compile Include="Partial\MainWindow\_ImageToolBar.cs" />
+    <Compile Include="Partial\MainWindow\_MenuItems.cs" />
+    <Compile Include="Partial\MainWindow\_ResizeView.cs" />
+    <Compile Include="UI\UserControls\DebugLog.xaml.cs">
+      <DependentUpon>DebugLog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\InstrumentManager.xaml.cs">
+      <DependentUpon>InstrumentManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.xaml.cs">
+      <DependentUpon>ucKeithley2110.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.xaml.cs">
+      <DependentUpon>ucRelay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.xaml.cs">
+      <DependentUpon>ucPickering50635005.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.xaml.cs">
+      <DependentUpon>ucVnptSwitchModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\Instruments\ucInstrumentContent.xaml.cs">
+      <DependentUpon>ucInstrumentContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\Go\TestGo.xaml.cs">
+      <DependentUpon>TestGo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TestSetting\Notes.xaml.cs">
+      <DependentUpon>Notes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.xaml.cs">
+      <DependentUpon>Parameters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TestSetting\Properties.xaml.cs">
+      <DependentUpon>Properties.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TestSetting\Registry.xaml.cs">
+      <DependentUpon>Registry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TreeTestSetting.xaml.cs">
+      <DependentUpon>TreeTestSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestItems\TreeTest\TreeTestView.xaml.cs">
+      <DependentUpon>TreeTestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControls\TestResult.xaml.cs">
+      <DependentUpon>TestResult.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\AboutWindow.xaml.cs">
+      <DependentUpon>AboutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\EditConfigurationWindow.xaml.cs">
+      <DependentUpon>EditConfigurationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\HelpWindow.xaml.cs">
+      <DependentUpon>HelpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\HistoryWindow.xaml.cs">
+      <DependentUpon>HistoryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\InputSerialWindow.xaml.cs">
+      <DependentUpon>InputSerialWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\MultimeterWindow.xaml.cs">
+      <DependentUpon>MultimeterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\NewRangeItemWindow.xaml.cs">
+      <DependentUpon>NewRangeItemWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\NewScriptWindow.xaml.cs">
+      <DependentUpon>NewScriptWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\PowerSupplyWindow.xaml.cs">
+      <DependentUpon>PowerSupplyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Windows\SwitchCardWindow.xaml.cs">
+      <DependentUpon>SwitchCardWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Asset\Resource\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Asset\Resource\Icon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="UI\UserControls\DebugLog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\InstrumentManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\Instruments\Debug\Multimeter\ucKeithley2110.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\Instruments\Debug\SwitchCard\Relay\ucRelay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\Instruments\Debug\SwitchCard\ucPickering50635005.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\Instruments\Debug\SwitchCard\ucVnptSwitchModule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\Instruments\ucInstrumentContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\Go\TestGo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TestSetting\Notes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TestSetting\Parameters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TestSetting\Properties.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TestSetting\Registry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TreeTestSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestItems\TreeTest\TreeTestView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\UserControls\TestResult.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\AboutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\EditConfigurationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\HelpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\HistoryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\InputSerialWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\MultimeterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\NewRangeItemWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\NewScriptWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\PowerSupplyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Windows\SwitchCardWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Partial\MainWindow\_Constructor.cs" />
+    <Compile Include="Partial\MainWindow\_Location.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Func\Dut\" />
+    <Folder Include="UI\UserControls\Instruments\Debug\PowerSupply\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Icon\ICT.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Icon\ICT_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Icon\ICT_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\properties.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\parameters.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\result.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\debug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\instrument.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\multimeter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\switchcard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\powersupply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\sizemin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\fail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\wait2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\test1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\fail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Image\logovnpt.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,19 @@
+﻿<InstrumentInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>AgilentE3632A</Name>
+  <DLLFile>AgilentE3632A.dll</DLLFile>
+  <CnnType>SCPI</CnnType>
+  <InstType>P</InstType>
+  <StableTime>500</StableTime>
+  <OutVoltage>12</OutVoltage>
+  <OutCurrent>1.2</OutCurrent>
+  <OverVoltage>15.5</OverVoltage>
+  <OverCurrent>1.5</OverCurrent>
+  <IsProtectVolt>True</IsProtectVolt>
+  <IsProtectCurrent>True</IsProtectCurrent>
+  <VoltStep>0.0001</VoltStep>
+  <CurrentStep>0.0001</CurrentStep>
+  <TriggerSource>IMM</TriggerSource>
+  <TriggerDelay>0</TriggerDelay>
+  <VisaAddress>GPIB0::7::INSTR</VisaAddress>
+  <ComStopBit>1</ComStopBit>
+</InstrumentInfo>

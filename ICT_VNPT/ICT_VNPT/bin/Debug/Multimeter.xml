@@ -1,0 +1,22 @@
+﻿<InstrumentInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Keithley2110</Name>
+  <DLLFile>Keithley2110.dll</DLLFile>
+  <CnnType>SCPI</CnnType>
+  <InstType>M</InstType>
+  <StableTime>500</StableTime>
+  <OutVoltage>12</OutVoltage>
+  <OutCurrent>2</OutCurrent>
+  <OverVoltage>15.5</OverVoltage>
+  <OverCurrent>2.5</OverCurrent>
+  <IsProtectVolt>True</IsProtectVolt>
+  <IsProtectCurrent>True</IsProtectCurrent>
+  <VoltStep>0.0001</VoltStep>
+  <CurrentStep>0.0001</CurrentStep>
+  <TriggerSource>IMM</TriggerSource>
+  <TriggerDelay>0</TriggerDelay>
+  <VisaAddress>USB0::0x05E6::0x2110::8009790::INSTR</VisaAddress>
+  <ComBaudRate>115200</ComBaudRate>
+  <ComDataBit>8</ComDataBit>
+  <ComParity>None</ComParity>
+  <ComStopBit>1</ComStopBit>
+</InstrumentInfo>
