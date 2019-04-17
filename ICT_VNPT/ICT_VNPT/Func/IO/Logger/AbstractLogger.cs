@@ -20,15 +20,15 @@ namespace ICT_VNPT.Func.IO {
             if (!Directory.Exists(_dir)) Directory.CreateDirectory(_dir);
 
             //Create ProductName Folder
-            _dir = Path.Combine(_dir, Properties.Settings.Default.ScriptName);
+            _dir = Path.Combine(_dir, Properties.Settings.Default.ScriptName.ToLower().Replace(".csv", "").Replace("script_test_", ""));
             if (!Directory.Exists(_dir)) Directory.CreateDirectory(_dir);
 
             //Create StationName Folder
-            _dir = Path.Combine(_dir, "ICT");
+            _dir = Path.Combine(_dir, "ict");
             if (!Directory.Exists(_dir)) Directory.CreateDirectory(_dir);
 
             //Create JigIndex Folder
-            _dir = Path.Combine(_dir, myGlobal.settingInfo.JigIndex);
+            _dir = Path.Combine(_dir, myGlobal.settingInfo.JigNumber);
             if (!Directory.Exists(_dir)) Directory.CreateDirectory(_dir);
 
             dir_Jig_Index = _dir;

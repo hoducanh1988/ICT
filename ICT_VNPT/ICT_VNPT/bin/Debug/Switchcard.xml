@@ -15,7 +15,7 @@
   <TriggerSource>IMM</TriggerSource>
   <TriggerDelay>0</TriggerDelay>
   <VisaAddress>PXI4::1::INSTR</VisaAddress>
-  <ComPort>COM6</ComPort>
+  <ComPort>COM8</ComPort>
   <ComBaudRate>115200</ComBaudRate>
   <ComDataBit>8</ComDataBit>
   <ComParity>None</ComParity>

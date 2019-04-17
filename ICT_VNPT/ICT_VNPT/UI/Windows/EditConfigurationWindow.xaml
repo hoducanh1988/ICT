@@ -41,7 +41,46 @@
 
         <ScrollViewer Margin="5,5,5,0" Grid.Row="0">
             <StackPanel Margin="0,0,0,70" Orientation="Vertical">
+                
+                <!--Station options-->
+                <Label Margin="0,0,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Station Options"/>
+                <Grid Height="100" Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Số thứ tự jig"/>
+                        <Label Grid.Row="1" Content="Tên người thao tác"/>
+                        <Label Grid.Row="2" Content="Mã sản phẩm"/>
+                        <Label Grid.Row="3" Content="Mã lệnh sản xuất"/>
+
+                    </Grid>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ComboBox Text="{Binding Path=JigNumber, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" x:Name="cbbJigName" Grid.Row="0"/>
+                        <TextBox Text="{Binding Path=Operator, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.Row="1"/>
+                        <TextBox Text="{Binding Path=ProductCode, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.Row="2"/>
+                        <TextBox Text="{Binding Path=WorkOrder, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.Row="3"/>
+                    </Grid>
+
+                </Grid>
+                
                 <!--Test case options-->
                 <Label Margin="0,0,0,0" Background="#ccb076" FontWeight="SemiBold" Content="Test Case Options"/>
                 <Grid Height="100" Margin="15,0,0,0">

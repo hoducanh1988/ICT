@@ -1,9 +1,13 @@
 ﻿<SettingInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ItemError>Stop</ItemError>
-  <EnablePower>Yes</EnablePower>
+  <JigNumber>1</JigNumber>
+  <Operator>test</Operator>
+  <ProductCode>test</ProductCode>
+  <WorkOrder>test</WorkOrder>
+  <ItemError>Continue</ItemError>
+  <EnablePower>No</EnablePower>
   <OFFPower>Yes</OFFPower>
   <ResetSwitch>Yes</ResetSwitch>
-  <LoadRecent>No</LoadRecent>
+  <LoadRecent>Yes</LoadRecent>
   <ShowTestItem>Yes</ShowTestItem>
   <ShowTestUnit>Yes</ShowTestUnit>
   <ShowTreeRegistry>Yes</ShowTreeRegistry>
@@ -14,14 +18,14 @@
   <ResultPath>D:\LOGDATA</ResultPath>
   <ResultCreateSub>Yes</ResultCreateSub>
   <ResultScroll>Yes</ResultScroll>
-  <ShowTablogMeter>true</ShowTablogMeter>
-  <ShowTablogSwitch>true</ShowTablogSwitch>
-  <ShowTablogPower>true</ShowTablogPower>
+  <ShowTablogMeter>false</ShowTablogMeter>
+  <ShowTablogSwitch>false</ShowTablogSwitch>
+  <ShowTablogPower>false</ShowTablogPower>
   <DebugTextLimit>10000</DebugTextLimit>
   <DebugPath>D:\BACKUP_C_16.02.2019-----\repos -----------------------\05.ICT\ICT_VNPT\ICT_VNPT\bin\Debug\</DebugPath>
   <DebugCreateSub>Yes</DebugCreateSub>
   <DebugScroll>Yes</DebugScroll>
   <PrintLabel>No</PrintLabel>
-  <PrinterName />
+  <PrinterName>POS-80</PrinterName>
   <PermissionAccess>0</PermissionAccess>
 </SettingInfo>

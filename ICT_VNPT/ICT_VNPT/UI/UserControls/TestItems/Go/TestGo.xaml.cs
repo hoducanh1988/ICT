@@ -18,8 +18,9 @@ using ICT_VNPT.Func.Ulti;
 using ICT_VNPT.Func.Custom;
 using ICT_VNPT.Func.Excute;
 using ICT_VNPT.UI.Windows;
-using System.Threading;
+using ICT_VNPT.Func.IO;
 
+using System.Threading;
 using System.Diagnostics;
 using System.Windows.Xps.Packaging;
 using System.IO;
@@ -238,7 +239,6 @@ namespace ICT_VNPT.UI.UserControls.TestItems {
 
             //print error
             _print_Error_String(r);
-
         }
 
 

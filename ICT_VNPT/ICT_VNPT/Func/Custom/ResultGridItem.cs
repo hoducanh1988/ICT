@@ -10,6 +10,20 @@ using ICT_VNPT.Func.Global;
 namespace ICT_VNPT.Func.Custom {
     public class ResultGridItem : CNotifyPropertyChanged {
 
+        public ResultGridItem() {
+            SerialNumber = "";
+            ItemName = "";
+            UnitType = "";
+            ItemUnit = "";
+            RetryTime = "";
+            NumValue = "";
+            LowerLimit = "";
+            UpperLimit = "";
+            UOM = "";
+            UnitType = "";
+            ItemResult = "";
+        }
+
         public override string ToString() {
             return string.Format("\"{0}\",\"{1}\",\"{2}\",\"{3}\",\"{4}\",\"{5}\",\"{6}\",\"{7}\",\"{8}\",\"{9}\",\"{10}\",\"{11}\"",
                                 SerialNumber,

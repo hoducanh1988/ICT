@@ -61,8 +61,15 @@ namespace ICT_VNPT.Func.Excute {
 
             //save result xml
             if (myGlobal.settingInfo.ResultSaveLog == "Yes") {
-                if (myGlobal.settingInfo.ResultFileFormat == "*.XML") xmlResult.SaveData(r == 0 ? "PASSED" : "FAILED");
-                if (myGlobal.settingInfo.ResultFileFormat == "*.CSV") csvResult.SaveData(r == 0 ? "PASSED" : "FAILED");
+                //if (myGlobal.settingInfo.ResultFileFormat == "*.XML") xmlResult.SaveData(r == 0 ? "PASSED" : "FAILED");
+                //if (myGlobal.settingInfo.ResultFileFormat == "*.CSV") csvResult.SaveData(r == 0 ? "PASSED" : "FAILED");
+
+                if (!System.IO.Directory.Exists("D:\\LOGDATA")) {
+                    System.IO.Directory.CreateDirectory("D:\\LOGDATA");
+                    System.Threading.Thread.Sleep(100);
+                }
+
+                new LogTotal().To_CSV_File(new VnptLogMoreInfo()); //log total
             }
             
             //reset SN

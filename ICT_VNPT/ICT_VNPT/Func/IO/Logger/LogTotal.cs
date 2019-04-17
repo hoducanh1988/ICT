@@ -18,13 +18,13 @@ namespace ICT_VNPT.Func.IO {
         /// 
         /// </summary>
         public LogTotal() : base() {
-            _dir_Log_Total = Path.Combine(base.dir_Jig_Index, "LogTotal");
+            _dir_Log_Total = Path.Combine(base.dir_Jig_Index, "logtotal");
             if (!Directory.Exists(_dir_Log_Total)) Directory.CreateDirectory(_dir_Log_Total);
             //get file name
             this._file_Name = string.Format("{0}_{1}_Jig{2}_{3}.csv", 
-                Properties.Settings.Default.ScriptName,
-                "ICT",
-                myGlobal.settingInfo.JigIndex, 
+                Properties.Settings.Default.ScriptName.ToLower().Replace(".csv", "").Replace("script_test_", ""),
+                "ict",
+                myGlobal.settingInfo.JigNumber.ToLower(), 
                 DateTime.Now.ToString("yyyyMMdd"));
         }
 
@@ -46,39 +46,38 @@ namespace ICT_VNPT.Func.IO {
                     //write title
                     if (IsCreateTitle == true) sw.WriteLine(title);
 
-                    foreach (PropertyInfo propertyInfo in logInfo.GetType().GetProperties()) {
-                        if (propertyInfo.PropertyType == typeof(VnptTestItemInfo)) {
-                            VnptTestItemInfo itemInfo = (VnptTestItemInfo)propertyInfo.GetValue(logInfo, null);
+                    //save log
+                    foreach (var item in myGlobal.resultGridItems) {
+                        //get product serial number
+                        string SN = string.IsNullOrEmpty(item.SerialNumber) || string.IsNullOrWhiteSpace(item.SerialNumber) ? DateTime.Now.ToString("HHmmss") : item.SerialNumber;
 
-                         
-                            //save log
-                            string content = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20}",
-                                                           DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss ffff"),
-                                                           logInfo.Production_Command.Replace(",", ";"),
-                                                           logInfo.Operator.Replace(",", ";"),
-                                                           logInfo.ProductCode.Replace(",", ";"),
-                                                           logInfo.Mac_Address.Replace(":", "").ToUpper().Replace(",", ";"),
-                                                           logInfo.Product_Serial.Replace(",", ";"),
-                                                           propertyInfo.Name.Replace(",", ";"),
-                                                           itemInfo.Lower_Limit.Replace(",", ";"),
-                                                           itemInfo.Upper_Limit.Replace(",", ";"),
-                                                           itemInfo.Actual_Value.Replace(",", ";"),
-                                                           itemInfo.Result.Replace(",", ";"),
-                                                           moreInfo.Info1,
-                                                           moreInfo.Info2,
-                                                           moreInfo.Info3,
-                                                           moreInfo.Info4,
-                                                           moreInfo.Info5,
-                                                           moreInfo.Info6,
-                                                           moreInfo.Info7,
-                                                           moreInfo.Info8,
-                                                           moreInfo.Info9,
-                                                           moreInfo.Info10
-                                                           );
+                        //log content
+                        string content = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},{17},{18},{19},{20}",
+                                                       DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss ffff"),
+                                                       myGlobal.settingInfo.WorkOrder.Replace(",", ";"),
+                                                       myGlobal.settingInfo.Operator.Replace(",", ";"),
+                                                       myGlobal.settingInfo.ProductCode.Replace(",", ";"),
+                                                       "",
+                                                       SN.Replace(",", ";"),
+                                                       item.ItemName.Replace(",", ";"),
+                                                       item.LowerLimit.Replace(",", ";"),
+                                                       item.UpperLimit.Replace(",", ";"),
+                                                       item.NumValue.Replace(",", ";"),
+                                                       item.ItemResult.Replace(",", ";") == "passed" ? "PASS" : "FAIL",
+                                                       item.ItemUnit,
+                                                       item.UnitType,
+                                                       item.UOM,
+                                                       moreInfo.Info4,
+                                                       moreInfo.Info5,
+                                                       moreInfo.Info6,
+                                                       moreInfo.Info7,
+                                                       moreInfo.Info8,
+                                                       moreInfo.Info9,
+                                                       moreInfo.Info10
+                                                       );
 
-                            //write content
-                            sw.WriteLine(content);
-                        }
+                        //write content
+                        sw.WriteLine(content);
                     }
                 }
                 return true;

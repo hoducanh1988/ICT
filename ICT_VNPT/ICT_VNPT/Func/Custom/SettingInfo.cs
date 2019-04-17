@@ -15,6 +15,12 @@ namespace ICT_VNPT.Func.Custom
         //Constructor
         public SettingInfo() {
 
+            //station
+            JigNumber = "1";
+            Operator = "";
+            ProductCode = "";
+            WorkOrder = "";
+
             //test case
             ItemError = "Stop";
             EnablePower = "Yes";
@@ -58,6 +64,43 @@ namespace ICT_VNPT.Func.Custom
             PermissionAccess = "0";
 
         }
+
+        #region  Station option
+
+        string _jig_number;
+        public string JigNumber {
+            get { return _jig_number; }
+            set {
+                _jig_number = value;
+                OnPropertyChanged(nameof(JigNumber));
+            }
+        }
+        string _operator;
+        public string Operator {
+            get { return _operator; }
+            set {
+                _operator = value;
+                OnPropertyChanged(nameof(Operator));
+            }
+        }
+        string _product_code;
+        public string ProductCode {
+            get { return _product_code; }
+            set {
+                _product_code = value;
+                OnPropertyChanged(nameof(ProductCode));
+            }
+        }
+        string _work_order;
+        public string WorkOrder {
+            get { return _work_order; }
+            set {
+                _work_order = value;
+                OnPropertyChanged(nameof(WorkOrder));
+            }
+        }
+
+        #endregion
 
         #region  Test case option
 
